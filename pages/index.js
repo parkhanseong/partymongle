@@ -3,6 +3,7 @@ import styles from '../styles/Home.module.css'
 import storyStyles from '../styles/Story.module.css'
 import Image from 'next/image'
 import Gallery from 'react-grid-gallery';
+import SimpleSlick from '../components/SimpleSlider';
 
 const IMAGES =
 [{
@@ -36,14 +37,8 @@ export default function Home() {
     return (
     <div>
         {/* slider section */}
-        <section>
-            <Image
-                src="/image/rooftop_main.JPG"
-                alt="main logo"
-                width="500"
-                height="500"
-            />
-        </section>
+        <SimpleSlick>
+        </SimpleSlick>
 
         {/* story section */}
         <section className={storyStyles.section}>
@@ -87,7 +82,7 @@ export default function Home() {
                     </div>
                     <div className={storyStyles.imgWrap}>
                         <Image
-                            src="/image/rooftop_sunshine.JPG"
+                            src="/image/rooftop_camping.JPG"
                             alt="main logo"
                             width="400"
                             height="400"

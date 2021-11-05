@@ -1,0 +1,10 @@
+.imgWrapper {
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.sliderImg {
+    border-radius: 20px;
+}
