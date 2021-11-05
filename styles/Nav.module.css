@@ -1,0 +1,23 @@
+.logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    padding: .5rem 1rem;
+    /* background: orange; */
+}
+.nav ul {
+    display: flex;
+    align-items: center;
+    /* border: 1px solid blue; */
+}
+
+.nav li {
+    margin-right: 1rem;
+    color: #111;
+}
+
+.rightLine {
+    margin-left: auto;
+}

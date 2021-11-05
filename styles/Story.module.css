@@ -1,0 +1,29 @@
+.section {
+    margin: 3rem 0;
+}
+.wrap > li{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.imgWrap {
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 3rem;
+}
+.storyArticle {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    width: 30%;
+}
+.wrap h2 {
+    margin-bottom: 1rem;
+}
+.activityArticle {
+    width: 30%;
+}
+
+.activityArticle ul li {
+    line-height: 1.7;
+}
